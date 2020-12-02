@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en-US">
+
+<head>
+<meta charset="UTF-8">
+<title>CSS Box Model</title>
+
+<link rel="stylesheet" type="text/css" href="resources/box_model_style.css">
+<meta name="description" content="Best Use of CSS Box Model">
+<meta name="keywords" content="CSS, box model, html, webpage, web, design">
+<meta name="author" content= "Kyle Walker">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body style="font-family: 'Cormorant SC', serif;">
+	<ul>
+		<li class="runlink"><a href="running.html">Trail Running</a></li>
+		<li class="boxlink"><a href="box_model.html">CSS Box Model</a></li>
+	</ul>
+
+<h1>The CSS Box Model</h1> 
+<div class="start">
+<p class="paragraph1">
+	The CSS box model identifies the four parts of the HTML element that 
+	can be styled. Let's consider each part.</p>
+<img src="resources/css_box_model.png" alt="CSS Box Model Chart" width="725" height="351">
+</div>
+<h2 class=partheader>The four parts of the CSS box model</h2> 
+<div class="partslist">
+	<ul>
+		<li>content</li>
+		<li>padding</li>
+		<li>border</li>
+		<li>margin</li>
+	</ul>
+</div>
+<div class="paragraph2">
+<p>
+	Each HTML element has a content box. This is the part of the element that 
+	contains the content. The content might be text, an image, or nested HTML 
+	elements. The content box is just big enough to fit the content. You can 
+	change the size of the content box by using the CSS width and height
+	properties.</p>
+<p>
+	Around the content is the padding, border, and margin. The size of each of 
+	these can be set using CSS.</p>
+</div>
+<div class="list">
+	<table class="center">
+		<thead>
+			<tr>
+				<th class="box">&emsp;Box Part&emsp;</th>
+				<th class="prop">&emsp;CSS Properties&emsp;</th>
+				<th class="links">&emsp;Link to Reference&emsp;</th>
+			</tr>
+		</thead>
+		<tbody class="tablebody">
+			<tr class="content">
+				<td>&emsp;Content</td>
+				<td>&emsp;width<br>&emsp;height</td>
+				<td></td>
+			</tr>
+			<tr class="padding">
+				<td>&emsp;Padding</td>
+				<td>&emsp;padding<br>&emsp;padding-top<br>&emsp;padding-right<br>&emsp;padding-bottom<br>&emsp;padding-left</td>
+				<td><a href="https://www.w3schools.com/css/css_padding.asp">w3schools CSS Padding</a></td>
+			</tr>
+			<tr class="border">
+				<td>&emsp;Border</td>
+				<td>&emsp;border<br>&emsp;border-style<br>&emsp;border-width<br>&emsp;border-color</td>
+				<td><a href="https://www.w3schools.com/css/css_border.asp">w3schools CSS Border</a></td>
+			</tr>
+			<tr class="margin">
+				<td>&emsp;Margin</td>
+				<td>&emsp;margin<br>&emsp;margin-top<br>&emsp;margin-right<br>&emsp;margin-bottom<br>&emsp;margin-left</td>
+				<td><a href="https://www.w3schools.com/css/css_margin.asp">w3schools CSS Margins</a></td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+<h1 class="inaction">The CSS Box Model in Action</h1> 
+<div class="textcontent">
+	<h3 class="texthead">Text Content</h3> 
+		<p class="whitetext">
+			We will use this paragraph to demonstrate how the parts of
+			the box model work when the content is text. By adding the 
+			different CSS properties we can see the effect they have.
+		</p>
+</div>
+<div class="imagecontent">	
+	<h3 class="imagehead">Image Content</h3>
+		<a href="https://css-tricks.com/almanac/properties/b/border/">
+			<img class="borderpic" src="resources/border.jpg" alt="Html Borders" width="646" height="566">
+		</a>
+</div>
+</body>
+</html>
